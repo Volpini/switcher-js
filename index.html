@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Switcher jQuery plugin</title>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link href="css/switcher.css" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/switcher.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#switch").switcher({
+					'defaultChecked' : false
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h2>Switcher by @rockingeric</h2>
+		<input type="radio" name="testing" id="switch"  />
+	</body>
+</html>
