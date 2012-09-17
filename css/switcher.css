@@ -1,10 +1,10 @@
 .switch-container {
-	width: 90px;
 	height: 30px;
 	padding: 5px;
+	float: left;
+	display: block;	
 }
 .switch-background {
-	width: 80px;
 	background-color: #eee;
 	height: 30px;
 	position: relative;
@@ -16,19 +16,24 @@
 	-moz-box-shadow: inset 0 8px 6px -6px #666;
 	box-shadow: inset 0 8px 6px -6px #666;
 	overflow: hidden;
+	display: block;
+	float: left;
 }
 .button-switch{
-	position: absolute;
 	-webkit-border-radius: 15px !important;
 	-moz-border-radius: 15px !important;
 	border-radius: 15px !important;
+	float: left;
 }
 .desc-switch{
-	line-height: 35px;
+	line-height: 30px;
+	float: left;
 }
 .desc-switch-on{
-	margin-left: 40px;
+	float : left;
+	margin-left: 10px;
 }
 .desc-switch-off{
-	margin-left: 15px;
+	float : right;
+	text-align : right;
 }
